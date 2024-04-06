@@ -261,6 +261,7 @@ left: -50px;
     margin: 0;
     box-sizing: border-box;
     margin-bottom: 32px;
+    border-radius: 4px;
 }
 
 .form__button {
@@ -276,6 +277,12 @@ left: -50px;
     height: 60px;
     width: 100%;
     margin-bottom: 32px;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.form__button:hover {
+    opacity: .7;
 }
 
 .form__checkbox {
