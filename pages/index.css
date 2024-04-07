@@ -262,6 +262,7 @@ left: -50px;
     box-sizing: border-box;
     margin-bottom: 32px;
     border-radius: 4px;
+    padding: 10px;
 }
 
 .form__button {
