@@ -185,14 +185,11 @@ left: -50px;
 .reservation {
     background: url(/images/background_reservation.svg);
     z-index: 1;
+    background-color: #D9E7FF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0 120px;
-}
-
-.reservation__background {
-    background-color: #D9E7FF;
 }
 
 .reservation__title {
