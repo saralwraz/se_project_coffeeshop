@@ -35,8 +35,8 @@
     max-width: 251px;
     z-index: 2;
     padding: 0;
-    margin: 0;
-    margin-top: -50px;
+    margin-top: -100px;
+    margin-left: 80px;
 }
 
 .about__content {
@@ -46,7 +46,9 @@
     max-width: 660px;
 }
 
-
+.about__paragraphs {
+    margin-left: auto;
+}
 
 .about__paragraph {
     font-family: "Noto Serif";
@@ -55,9 +57,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #fff;
-    margin: 0 auto;
     padding: 0;
-    justify-content: flex-end;
     padding-bottom: 20px;
 }
 
@@ -65,9 +65,7 @@
     padding: 0;
 }
 
-.about__paragraphs {
-    margin-left: auto;
-}
+
 
 .about__circle {
     background-color: #2f80ed;
