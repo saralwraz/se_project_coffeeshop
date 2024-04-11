@@ -80,7 +80,7 @@
                     </div>
                 </section>
                 <section class="reservation" id="Reservation">
-                    <h3 class="reservation__title">Book a table</h3>
+                    <h2 class="reservation__title">Book a table</h2>
                     <form action="reservation" class="reservation__form form">
                         <fieldset class="form__fieldset">
                             <label class="form__label">Name *</label>
@@ -121,7 +121,7 @@
                             />
                         </fieldset>
                         <button class="form__button" type="submit">Book a table</button>
-                        <fieldset class="form__label_type_checkbox">
+                        <fieldset class="form__fieldset">
                           <input
                           type="checkbox"
                           class="form__checkbox"
@@ -129,16 +129,16 @@
                           name="checkbox"
                           required
                           />
-                          <label for="checkbox" class="form__label_type_checkbox">I agree with the terms of use</label>
+                          <label for="checkbox" class="form_fieldset form__fieldset_terms">I agree with the terms of use</label>
                         </fieldset>
                     </form>       
                 </section>
                 <section class="menu" id="Menu">
-                    <h4 class="menu__title">Menu</h4>
+                    <h2 class="menu__title">Menu</h2>
                     <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</p>
                     <ul class="menu__cards">
                         <li class="card">
-                            <h5 class="card__title">Filter</h5>
+                            <h3 class="card__title">Filter</h3>
                             <ul class="card__list">
                                 <li class="card__list-item"> Regular (12 oz)<span class="card__list-divider"></span>$1</li>
                                 <li class="card__list-item"> Large (16 oz)<span class="card__list-divider"></span>$1.25</li>
@@ -149,7 +149,7 @@
                         </li>
 
                         <li class="card">
-                            <h5 class="card__title">Espresso</h5>
+                            <h3 class="card__title">Espresso</h3>
                             <ul class="card__list">
                                 <li class="card__list-item"> 
                                     Macchiato
@@ -164,7 +164,7 @@
                         </li>
 
                         <li class="card">
-                            <h5 class="card__title">Baked Goods</h5>
+                            <h3 class="card__title">Baked Goods</h3>
                             <ul class="card__list">
                                 <li class="card__list-item"> Almond Croissant<span class="card__list-divider"></span>$2</li>
                                 <li class="card__list-item"> Banana Bread<span class="card__list-divider"></span>$1.75</li>
@@ -177,8 +177,8 @@
                     </ul>
                 </section>
                 <section class="about" id="Contacts">
-                    <div class="about__circle"></div>
-                    <h6 class="about__title">About the coffee shop</h6>
+                    <div class="about__circle about__circle_animation_blurred"></div>
+                    <h2 class="about__title">About the coffee shop</h2>
                     <div class="about__content">
                         <div class="about__paragraphs">
                             <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
@@ -190,15 +190,13 @@
             </main>
             <footer class="footer" id="footer">
                 <div class="footer__content">
-                  <div class="footer__logo">
                     <img
                       src="images/logo_coffeeshop_light.svg"
                       alt="Triple Espresso"
                       class="footer__logo"
                     />
-                  </div>
-                  <div class="footer__content footer__content_social">
-                    <h6 class="footer__social-heading">Social Media</h6>
+                  <div class="footer__social">
+                    <h4 class="footer__social-heading">Social Media</h4>
                     <ul class="footer__list">
                       <li class="footer__list-item">
                         <a href="#" class="footer__social-link">

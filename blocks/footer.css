@@ -9,13 +9,13 @@
   .footer__content {
     display: flex;
   }
-  
-  
-  .footer__content_social {
+
+  .footer__social {
     display: flex;
     flex-direction: column;
     margin-left: auto;
   }
+  
   
   .footer__logo {
     width: 105px;
