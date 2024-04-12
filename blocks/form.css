@@ -20,7 +20,7 @@
     border: none;
 }
 
-.form__fieldset_terms {
+.form__label_type_checkbox {
     display: flex;
     justify-content: center;
     padding-left: 12px;
