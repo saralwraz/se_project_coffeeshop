@@ -64,8 +64,10 @@
   }
   
   .footer__social-icon {
+    gap: 10px;
     width: 16px;
     height: 16px;
+    padding-right: 10px;
   }
   
   .footer__copyright {
